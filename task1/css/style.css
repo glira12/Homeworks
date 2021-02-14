@@ -1,0 +1,18 @@
+div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+q::before{
+    content:"«" ;
+    font-family: 'Lato';
+    background-size: 50px;
+    font-size: 35px;
+    color: indigo;
+}
+q::after{
+    content:"»";
+    font-family: 'Lato';
+    font-size: 35px;
+    color: indigo;
+}
