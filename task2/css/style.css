@@ -1,0 +1,8 @@
+li:first-child{
+    color: rgb(238, 23, 94);
+    font-weight: bold;
+}
+li:last-child{
+    color: rgb(28, 158, 28);
+    font-style: oblique;
+}
