@@ -1,8 +1,8 @@
 div{
     color: green;
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.4;
     letter-spacing: 0.05em;
     text-align: center;
+    font-weight: 500;
     }
