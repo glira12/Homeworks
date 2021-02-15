@@ -1,0 +1,33 @@
+li:nth-child(3) {
+    color: white;
+    background-color: #96dfa3;
+  }
+  li:nth-child(7) {
+    color: white;
+    background-color: #96dfa3;
+  }
+ul {
+    margin: 50px;
+    padding: 0;
+    list-style: none;
+}
+
+  li{
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    background: #dde3f1;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "Tahoma", sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  li :first-child{
+      color: green;
+  }
+  
