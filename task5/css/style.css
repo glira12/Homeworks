@@ -1,7 +1,7 @@
 body{
     background-color: rgb(219, 214, 214);
 }
-hr, p{
+hr, p {
 width: 300px;
 }
     
@@ -16,7 +16,7 @@ div{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%) 
     }
     
     
