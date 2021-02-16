@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 0px;
     color: white;
-    
-}
+    }
 
 .header{
     width: 100%;
@@ -49,4 +48,10 @@
     height: 100px;
     background-color: rgb(128, 221, 132);
     font-size: 20px;
+}
+.text{
+    padding-top: 30px;
+}
+.text2{
+    padding-top: 150px;
 }
