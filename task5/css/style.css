@@ -1,11 +1,11 @@
 body{
     background-color: rgb(219, 214, 214);
 }
-hr, p {
+.text {
 width: 300px;
 }
     
-div{
+.box{
     text-align: center;
     padding-bottom: 30px;
     padding-left: 20px;
