@@ -22,3 +22,6 @@ body{
            margin-right: 50px;
            margin-left: 300px;
        }
+       span{
+        display: table;
+       }
