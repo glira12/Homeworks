@@ -32,8 +32,6 @@
     float: right;
     font-size: 20px;
     text-align: center;
-    
-    
 }
 .center{
     width: 50%;
@@ -54,4 +52,11 @@
 }
 .text2{
     padding-top: 150px;
+}
+span{
+    display: table;
+    margin-left: 100px;
+}
+.down{
+    margin-left: 270px;
 }
