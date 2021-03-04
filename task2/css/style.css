@@ -7,31 +7,78 @@ margin: 0px;
 padding: 0px;
 }
 
-.nav{
+.header{
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 list-style-type: none;
-padding-left: 0;
+width: 100%;
+
 }
-    
-.nav>li{
-margin-left: 250px;
-margin-right: 250px;
-font-size: 18px;
+.logo{
+  font-size: 16px;
+  font-weight: 800;
+  margin-left: 200px;
+  margin-top: 40px;
+ 
 }
-    
+
+
+button {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  height: 42px;
+  background: none;
+  border: none;
+  height: 42px;
+  width: 42px;
+ margin-top: 30px;
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color:black;
+}
+.menu-btn{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after{
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  left: 50%;
+  margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color:black;
+}
+.menu-btn span::before,
+.menu-btn span::after{
+  content: "";
+}
+  .menu-btn span::before{
+  transform: translateY(-5px);
+  }
 .tittle{
 font-size: 50px;
 width: 400px;
 margin-top: 100px;
 margin-left: 200px;
 }
-       
 .icons{
 position: relative;
 height: 50px;
 width: 300px;
-margin-left: 1200px;
+margin-left: 1070px;
 bottom: 100px;
 }
 
@@ -63,14 +110,7 @@ width: 400px;
 margin-left: 200px;
 }
 
-button{
-display: inline-block;
-width: 100px;
-height: 50px;
-background-color:#EF8E70;
-border: none;
-margin-left: 1250px;
-}
+
 
 .our{
 margin-left: 200px;
