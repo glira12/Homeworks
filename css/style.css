@@ -27,6 +27,7 @@
  li{
     list-style: none;
     margin-top: 10px;
+    color: gray;
 }
  
 .plan{
@@ -59,6 +60,7 @@
     height: 50px;
     text-align: center;
     margin-left: 400px;
+    color: gray;
 }
 
 .button{
